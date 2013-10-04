@@ -1,0 +1,22 @@
+﻿@model IList<ShaneBlog.Web.Models.Post>
+      
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h1>Post Go Here</h1>
+        @foreach (var post in Model) {
+            <p>@post.Body</p>
+        }  
+    </div>
+</body>
+</html>
