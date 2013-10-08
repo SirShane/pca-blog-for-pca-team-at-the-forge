@@ -8,5 +8,7 @@ namespace ShaneBlog.Web.Models
     public class Post
     {
         public string Body { get; set; }
+
+        public int Id { get; set; }
     }
 }
