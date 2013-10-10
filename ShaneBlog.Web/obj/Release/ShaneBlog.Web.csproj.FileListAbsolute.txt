@@ -26,3 +26,7 @@ C:\Users\Owner\pca-blog-for-pca-team-at-the-forge\ShaneBlog.Web\bin\System.Web.W
 C:\Users\Owner\pca-blog-for-pca-team-at-the-forge\ShaneBlog.Web\obj\Release\ShaneBlog.Web.csprojResolveAssemblyReference.cache
 C:\Users\Owner\pca-blog-for-pca-team-at-the-forge\ShaneBlog.Web\obj\Release\ShaneBlog.Web.dll
 C:\Users\Owner\pca-blog-for-pca-team-at-the-forge\ShaneBlog.Web\obj\Release\ShaneBlog.Web.pdb
+C:\Users\Owner\pca-blog-for-pca-team-at-the-forge\ShaneBlog.Web\bin\Castle.Core.dll
+C:\Users\Owner\pca-blog-for-pca-team-at-the-forge\ShaneBlog.Web\bin\Castle.Windsor.dll
+C:\Users\Owner\pca-blog-for-pca-team-at-the-forge\ShaneBlog.Web\bin\Castle.Core.xml
+C:\Users\Owner\pca-blog-for-pca-team-at-the-forge\ShaneBlog.Web\bin\Castle.Windsor.xml

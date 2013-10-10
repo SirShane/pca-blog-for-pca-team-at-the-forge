@@ -26,3 +26,7 @@ C:\Users\Owner\pca-blog-for-pca-team-at-the-forge\ShaneBlog.Web.Test.Unit\bin\Re
 C:\Users\Owner\pca-blog-for-pca-team-at-the-forge\ShaneBlog.Web.Test.Unit\bin\Release\Newtonsoft.Json.xml
 C:\Users\Owner\pca-blog-for-pca-team-at-the-forge\ShaneBlog.Web.Test.Unit\obj\Release\ShaneBlog.Web.Test.Unit.dll
 C:\Users\Owner\pca-blog-for-pca-team-at-the-forge\ShaneBlog.Web.Test.Unit\obj\Release\ShaneBlog.Web.Test.Unit.pdb
+C:\Users\Owner\pca-blog-for-pca-team-at-the-forge\ShaneBlog.Web.Test.Unit\bin\Release\Castle.Windsor.dll
+C:\Users\Owner\pca-blog-for-pca-team-at-the-forge\ShaneBlog.Web.Test.Unit\bin\Release\Castle.Core.dll
+C:\Users\Owner\pca-blog-for-pca-team-at-the-forge\ShaneBlog.Web.Test.Unit\bin\Release\Castle.Windsor.xml
+C:\Users\Owner\pca-blog-for-pca-team-at-the-forge\ShaneBlog.Web.Test.Unit\bin\Release\Castle.Core.xml

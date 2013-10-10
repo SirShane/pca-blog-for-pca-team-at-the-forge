@@ -4,14 +4,18 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using ShaneBlog.Core;
 using ShaneBlog.Web.Models;
 
 namespace ShaneBlog.Web.Controllers
 {
     public class PostController : Controller
     {
-        public PostController()
+        private readonly IRepository<Post> _repository;
+
+        public PostController(IRepository<Post> repository)
         {
+            _repository = repository;
             Posts = new List<Post>();
         }
 
@@ -48,7 +52,7 @@ namespace ShaneBlog.Web.Controllers
         {
             try
             {
-                Posts.Add(post);
+                _repository.Add(post);
                 return RedirectToAction("Index");
             }
             catch

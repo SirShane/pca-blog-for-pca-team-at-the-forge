@@ -1,14 +1,10 @@
-﻿using ShaneBlog.Web.Controllers;
-using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.Web.Mvc;
+using ShaneBlog.Web.Controllers;
 using ShaneBlog.Web.Models;
+using NUnit.Framework;
 
-namespace ShaneBlog.Web.Tests.Unit
+namespace ShaneBlog.Web.Tests.Unit.Controllers
 {
     public class HomeControllerTests
     {
@@ -16,20 +12,22 @@ namespace ShaneBlog.Web.Tests.Unit
         [Test]
         public void IndexActionShouldDisplayPosts()
         {
-            var controller = new HomeController();
-            var actual = controller.Index() as ViewResult;
+            var sut = new HomeController();
+            var actual = sut.Index() as ViewResult;
             Assert.That(actual.ViewName, Is.EqualTo("Index"));
         }
 
         [Test]
-        public void IndexActionShouldReturnsPosts() {
+        public void IndexActionReturnsPosts()
+        {
             var sut = new HomeController();
             var action = sut.Index() as ViewResult;
             Assert.That(action.ViewData.Model, Is.InstanceOf(typeof(IList<Post>)));
         }
 
         [Test]
-        public void IndexActionModelShouldNotBeEmpty() {
+        public void IndexActionModelShouldNotBeEmpty()
+        {
             var sut = new HomeController();
             var action = sut.Index() as ViewResult;
             var posts = action.ViewData.Model as IList<Post>;
@@ -37,13 +35,15 @@ namespace ShaneBlog.Web.Tests.Unit
         }
 
         [Test]
-        public void PostShouldHaveABody() {
+        public void PostShouldHaveABody()
+        {
             var sut = new Post();
             // sut.Body = "";
         }
 
         [Test]
-        public void PostShouldHaveABodyOfBoo() {
+        public void PostShouldHaveABodyOfBoo()
+        {
             var sut = new HomeController();
             var action = sut.Index() as ViewResult;
             var posts = action.ViewData.Model as IList<Post>;

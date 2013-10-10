@@ -10,5 +10,10 @@ namespace ShaneBlog.Web.Models
         public string Body { get; set; }
 
         public int Id { get; set; }
+
+        public override string ToString()
+        {
+            return "Post " + Id + ": " + Body;
+        }
     }
 }
